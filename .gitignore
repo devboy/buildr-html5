@@ -2,6 +2,10 @@
 *.iml
 .idea
 
+#test
+test
+tmp
+
 # rcov generated
 coverage
 
