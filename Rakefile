@@ -16,12 +16,12 @@ require File.dirname(__FILE__)+"/rake/jeweler_prerelease_tasks"
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "buildr-html5"
-  gem.homepage = "http://github.com/devboy/buildr-html5"
+  gem.homepage = "http://github.com/base42/buildr-html5"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
-  gem.email = "dominic.graefen@gmail.com"
-  gem.authors = ["devboy"]
+  gem.summary = %Q{Build like you code - now supporting HTML, JS and CSS}
+  gem.description = %Q{Build like you code - now supporting HTML, JS and CSS}
+  gem.email = "jankees@base42.nl"
+  gem.authors = ["jankeesvw","devboy"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
