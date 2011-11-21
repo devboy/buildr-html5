@@ -12,6 +12,7 @@ end
 require 'rake'
 
 require 'jeweler'
+require File.dirname(__FILE__)+"/rake/jeweler_prerelease_tasks"
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "buildr-html5"
