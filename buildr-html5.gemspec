@@ -8,10 +8,10 @@ Gem::Specification.new do |s|
   s.version = "0.0.1.pre"
 
   s.required_rubygems_version = Gem::Requirement.new("> 1.3.1") if s.respond_to? :required_rubygems_version=
-  s.authors = ["devboy"]
+  s.authors = ["jankeesvw", "devboy"]
   s.date = "2011-11-21"
-  s.description = "TODO: longer description of your gem"
-  s.email = "dominic.graefen@gmail.com"
+  s.description = "Build like you code - now supporting HTML, JS and CSS"
+  s.email = "jankees@base42.nl"
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.rdoc"
@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "buildr-html5.gemspec",
     "lib/buildr/html5.rb",
     "lib/buildr/html5/compiler.rb",
     "lib/buildr/html5/compiler/closure.rb",
@@ -34,11 +35,11 @@ Gem::Specification.new do |s|
     "spec/sandbox.rb",
     "spec/spec_helper.rb"
   ]
-  s.homepage = "http://github.com/devboy/buildr-html5"
+  s.homepage = "http://github.com/base42/buildr-html5"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.11"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "Build like you code - now supporting HTML, JS and CSS"
   s.test_files = [
     "spec/html5/compiler/closure_spec.rb",
     "spec/sandbox.rb",
